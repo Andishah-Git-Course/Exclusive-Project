@@ -101,77 +101,133 @@ main {
   flex-direction: column;
   align-items: center;
   padding-top: 150px;
+  gap: 100px;
 }
 
-.page {
-  width: 100%;
-  margin-top: 50px;
-}
-
-h1 {
-  margin-bottom: 30px;
-}
-
-.billing-details-section {
-  width: 100%;
-  margin: 50px 0px;
-}
-
-.bling-info-container {
+.our-story-section {
   display: flex;
   width: 100%;
-  justify-content: space-between;
-}
-
-.form-container {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
+  align-items: center;
   gap: 30px;
 }
 
-.item-container {
-  width: 40%;
+.price {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.price-cart {
+
+  width: 23%;
+  height: 17rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 
-.cart-box > img {
-  width: 500px;
-  height: 500px;
+.price-cart span {
+  display: block;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 20px;
 }
 
-.item-container div,
-.item-container p {
-  width: 100%;
+.price-cart i {
+  font-size: 30px;
+  color: #fff;
+  background-color: #000;
+  width: 80px;
+  height: 80px;
+  align-content: center;
+  border-radius: 50%;
+  border: 10px solid rgb(109, 106, 106);
+}
+
+.info {
   display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.info h1 {
+  font-size: 50px;
+}
+
+.info p {
+  font-size: 19px;
+  text-align: justify;
+}
+
+.person-container {
+  display: flex;
+  width: 100%;
   justify-content: space-between;
 }
 
-.item-container input[type="text"] {
-  width: 350px;
-  height: 40px;
+.person-container h3 {
+  font-size: 30px;
+  font-weight: 500;
 }
 
-.item-container button {
-  width: 170px;
-  height: 40px;
+.person-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.item-container div img {
+.person-info div {
+  display: flex;
+  gap: 20px;
+}
+
+.person-info a {
+  color: #000;
+  font-size: 20px;
+}
+
+.person-cart{
+  width: 24%;
+
+
+}
+
+.person-cart img{
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: #000;
+}
+
+.icon div div {
+  background-color: #000;
   width: 50px;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 10px solid rgb(140, 138, 143);
+  padding: 25px;
+  color: #fff;
+  font-size: 30px;
 }
 
-.form-container div {
-  width: 100%;
+.icon div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.form-container input {
-  width: 100%;
-  height: 40px;
-}
+
 
 .exclusive-footer,
 .support-footer,
@@ -214,4 +270,5 @@ h1 {
   padding: 60px 80px;
   gap: 10px;
   text-align: center;
+  margin-top: 80px;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="Assets/Css-File/CheckOut.css" />
+    <link rel="stylesheet" href="Assets/Css-File/Account.css" />
   </head>
   <body>
     <!-- Header Section HTML Code Start -->
@@ -28,7 +28,7 @@
           <h1>Exclusive</h1>
         </div>
         <div class="pages-container">
-          <a href="#">Home</a>
+          <a href="index.html">Home</a>
           <a href="#">Contact</a>
           <a href="#">About</a>
           <a href="sign-up.html">Sign up</a>
@@ -55,113 +55,75 @@
     <!-- Header Section HTML Code End -->
 
     <main>
-      <section class="page">
+      <section class="pages">
         <p>
-          <a href="index.html">Account</a> /
-          <a href="cart.html">My Account</a> / <a href="#">Product</a> /
-          <a href="cart.html">Viow Cart</a> /
-          <a href="CheckOut.html">CheckOut</a>
+          <a href="index.html">Home</a> /
+          <a href="Account.html">My Account</a>
         </p>
       </section>
 
-      <section class="billing-details-section">
-        <h1>Billing Details</h1>
-        <div class="bling-info-container">
-          <div class="form-container">
-            <div>
-              <label for="#">First Name*</label>
-              <br />
-              <input type="text" />
-            </div>
+     <section class="main">
+         <section class="manage-my-account-section">
+        <div class="manage">
+          <ol>
+            <li><h3>Manage My Account</h3></li>
+            <ol>
+              <li>My Profile</li>
+              <li>Address Book</li>
+              <li>My Payment Options</li>
+            </ol>
+            <li><h3>My Orders</h3></li>
+            <ol>
+              <li>My Returns</li>
+              <li>My Cancellations</li>
+            </ol>
+            <li><h3>My WishList</h3></li>
+          </ol>
+        </div>
+      </section>
 
-            <div>
-              <label for="#">Company Name*</label>
-              <br />
-              <input type="text" />
-            </div>
-
-            <div>
-              <label for="#">Street Address*</label>
-              <br />
-              <input type="text" />
-            </div>
-
-            <div>
-              <label for="#">Apartment, floor, etc. (optional)</label>
-              <br />
-              <input type="text" />
-            </div>
-
-            <div>
-              <label for="#">Phone Number*</label>
-              <br />
-              <input type="text" />
-            </div>
-
-            <div>
-              <label for="#">Email Address*</label>
-              <br />
-              <input type="text" />
-            </div>
-          </div>
-
-          <div class="item-container">
-            <div>
-              <span><img src="Assets/Image/gg.svg" alt="gg" /> Gamepad</span>
-              <span>$650</span>
-            </div>
-
-            <div>
-              <span
-                ><img src="Assets/Image/Monitor.svg" alt="Monitor" />H1
-                Gamepad</span
-              >
-              <span>$1100</span>
-            </div>
-
-            <div>
-              <p>
-                <span>Subtotal:</span>
-                <span>$1750</span>
-              </p>
-            </div>
-
-            <p>
-              <span>Shipping:</span>
-              <span>Free</span>
-            </p>
-
-            <div>
-              <p>
-                <span>Total:</span>
-                <span>$1750</span>
-              </p>
-            </div>
-
-            <div>
-              <p>
-                <span><input type="radio" /> <label for="#">Bank</label></span>
-              </p>
-            </div>
-
-            <div>
+      <section class="edit-your-profile-section">
+        <h2>Edit Your Profile</h2>
+        <div class="form-container">
+          <div class="box1">
+            <div class="box1-input">
               <span>
-                <input type="radio" />
-                <label for="#">Cash on delivery</label>
+                <label for="#">First Name</label>
+                <input type="text" placeholder="md" />
+              </span>
+
+              <span>
+                <label for="#">Last Name</label>
+                <input type="text" placeholder="Rimal" />
               </span>
             </div>
 
-            <div>
-              <input type="text" />
-              <button>Apply Coupon</button>
-            </div>
+            <div class="box1-input">
+              <span>
+                <label for="#">Address</label>
+                <input type="text" placeholder="Kingston, 5236, United State" />
+              </span>
 
-            <div>
-              <button>Place order</button>
+              <span>
+                <label for="#">Last Name</label>
+                <input type="text" placeholder="Rimal" />
+              </span>
+            </div>
+          </div>
+
+          <div class="box2">
+            <label>Password Changes</label>
+            <input type="text" placeholder="Current Passwod" />
+            <input type="text" placeholder="New Passwod" />
+            <input type="text" placeholder="Confirm New Passwod" />
+            <div class="btn-box">
+              <button>Cancel</button>
+              <button>Save Changes</button>
             </div>
           </div>
         </div>
       </section>
+     </section>
     </main>
 
     <!-- Footer Section HTML Code Start -->
@@ -189,7 +151,7 @@
         <h3>Account</h3>
         <br />
         <div>
-          <a href="Account.html">My Account</a>
+          <a href="#">My Account</a>
           <span
             ><a href="login.html">Login</a> /
             <a href="sign-up.html">Register</a></span
